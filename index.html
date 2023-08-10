@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script type="text/javascript">
+        function goToNewPage() {
+            var url = document.getElementById('list').value;
+            if (url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <section id="hero">
+        <nav class="navigation">
+            <a href="index.html" class="logo"><span>We</span>CARE</a>
+            <ul class="menu">
+                <li>
+                    <a href="finddoctors.html">Find Doctors</a>
+                    <li>
+
+                        <li><a href="Diet.html">Diet</a>
+                            <li><a href="exercise.html">Exercises</a>
+                                <li><a href="bmi.html">BMI Calculator</a>
+
+            </ul>
+
+            <a href="login.php" class="nav-appointment-btn">Login</a>
+
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Feel Better About Finding HealthCare</h1>
+                <p>WeCare wish to provide patients a fantastic virtual health care experience. We integrate advanced IT to support our doctors in providing secure, efficient healthcare in a virtual format.</p>
+
+                <div class="hero-text-btns">
+                    <!--
+               <a href="#">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  Find Doctor</a>
+               
+               <a href="#">
+                  <i class="fa-solid fa-check"></i>
+                  Book Appointment</a>
+               -->
+
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="gg.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="appointment-search-container">
+        <h3>Find Best HealthCare</h3>
+        <form>
+            <select name="list" id="list" accesskey="target">
+             <option value='none' selected>Choose Your Concerned Doctor</option>
+             <option value="login.php">Cardiologist</option>
+             <option value="login.php">Neurologist</option>
+             <option value="login.php">Orthologist</option>
+             <option value="login.php">Gynaecologist</option>
+             <option value="login.php">Dermatalogist</option>
+             <option value="login.php">Paediatrics</option>
+             <option value="login.php">Geriatrics</option>
+             
+         </select>
+            <input type=button value="Go" onclick="goToNewPage()" />
+        </form>
+
+
+    </div>
+    <section class="what-we-provide">
+        <div class="w-info-box w-info-box1">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-capsules"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Specialised Service</strong>
+                <p>We provide you services by our well qualified team of doctors.</p>
+            </div>
+
+        </div>
+
+        <div class="w-info-box w-info-box2">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>   Advanced Care </strong>
+                <p>Our costumer care service is available 24*7 as chatbots.</p>
+            </div>
+
+        </div>
+
+        <div class="w-info-box w-info-box3 ">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Record Maintaince</strong>
+                <p>You can get your medical history.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="our-story">
+        <div class="our-story-img">
+            <img src="picture.jpg" alt="">
+
+
+        </div>
+        <div class="our-story-text">
+            <h2>Short Story About Our Services.</h2>
+            <p>Health is about being physically, mentally and socially fit and active. A healthy person is always ready to work in any situation.</p>
+            <p>Our clinic greatly concerns with your health. We are ready to provide you services with a bare minimum effort on your phone.</p>
+
+            <div class="story-number-container">
+                <div class="story-number-box s-n-box1">
+                    <strong>100k+</strong>
+                    <span>Happy Patients</span>
+                </div>
+
+                <div class="story-number-box s-n-box2">
+                    <strong>1000+</strong>
+                    <span>Expert Doctors</span>
+                </div>
+
+                <div class="story-number-box s-n-box3">
+                    <strong>500+</strong>
+                    <span>Hospital Rooms</span>
+                </div>
+
+                <div class="story-number-box s-n-box4">
+                    <strong>100+</strong>
+                    <span>Awards</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section id="our-services">
+        <div class="services-heading">
+            <div class="services-heading-text">
+
+                <h2>High Quality Services For You</h2>
+            </div>
+        </div>
+        <div class="service-box s-box1">
+            <strong>Highly Qualified Doctors</strong>
+            <br>
+            <p>Doctors are medical professionals, qualified and trained health care professionals who diagonose and treat various health conditions in human beings. WeCare wish to provide patients a fantastic virtual health care experience. We integrate
+                advanced IT to support our doctors in providing secure, efficient healthcare in a virtual format. Our doctors have flexible working schedules. Being part of rapidly growing team, we promise to have fun interaction and our doctors are offered
+                competitive renumeration rate. We offer affordable premium health care services to a wide variety of patients in our community and we service all ages. And doctors have a deep knowledge and practical experience of years in their respective
+                fields. We are so happy to tell you that we have 215+ doctors. Becoming a doctor typically requires significant efforts through academic education and clinical studies. </p>
+
+        </div>
+        </div>
+        <span class="service-help-btn"></span>
+    </section>
+    <section id="why-choose-us">
+        <div class="why-choose-us-left">
+            <h3>Why Choose Us?</h3>
+            <div class="why-choose-box-container">
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-check"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Highly Qualified Doctors</strong>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-check"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Slot Flexibilty</strong>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-check"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Diet Plans</strong>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-check"></i>
+                    <div class="why-choose-box-text">
+                        <strong>24*7 Support</strong>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="why-choose-us-right">
+            <h3>
+                Emergency?<br/> Contact Us
+            </h3>
+            <p>Contact Us For Any Help And Services</p>
+            <div class="w-right-contact-container">
+                <div class="w-right-contact-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="w-right-contact-box-text">
+                        <span>Call Us Now</span>
+                        <strong> <a href="">+91 7351891418 </a></strong>
+                    </div>
+                </div>
+                <div class="w-right-contact-box">
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    <div class="w-right-contact-box-text">
+                        <span>Mail Us</span>
+                        <strong> <a href="mailto: sweta45554@gmail.com"> sweta45554@gmail.com </a></strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="footer">
+        <p>Copyright © 2023, We CARE. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

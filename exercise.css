@@ -1,0 +1,162 @@
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                                box-sizing: border-box;
+                                font-family: poppins;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                            }
+                            
+                            ul {
+                                list-style: none;
+                            }
+                            
+                            #hero {
+                                background-color: #f5f7fb;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                min-height: 60px;
+                                position: fixed;
+                            }
+                            
+                            .navigation {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                max-width: 1200px;
+                                width: 90%;
+                                margin: 0px auto;
+                                padding: 20px 0px;
+                            }
+                            
+                            .logo {
+                                color: #122851;
+                                font-weight: 700;
+                                font-size: 1.4rem;
+                            }
+                            
+                            .logo span {
+                                background-color: #014dd5;
+                                color: #ffffff;
+                                padding: 0px 5px;
+                                border-radius: 5px;
+                                font-weight: 600;
+                                margin-right: 5px;
+                            }
+                            
+                            .menu {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-right: auto;
+                                margin-left: 40px;
+                            }
+                            
+                            .menu li a {
+                                margin: 0px 20px;
+                                color: #303030;
+                                font-weight: 500;
+                                transition: all ease 0.3s;
+                            }
+                            
+                            .menu li a:hover {
+                                color: #014dd5;
+                            }
+                            
+                            .nav-appointment-btn {
+                                height: 45px;
+                                padding: 0px 20px;
+                                border-radius: 4px;
+                                background-color: #014dd5;
+                                color: #ffffff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-weight: 500;
+                                letter-spacing: 1px;
+                                font-size: 0.9rem;
+                            }
+                            
+                            .exercise {
+                                width: 100%;
+                                margin: 0px auto;
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                align-items: flex-start;
+                                margin-top: auto;
+                                background-color: #fae8ec;
+                                border-style: inset;
+                            }
+                            
+                            .text {
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 70px;
+                                margin-left: 20px;
+                            }
+                            
+                            .text h1 {
+                                font-size: 3.2rem;
+                                color: #122853;
+                                line-height: 3.6rem;
+                            }
+                            
+                            .image {
+                                display: flex;
+                            }
+                            
+                            .image img {
+                                width: 95%;
+                                height: 100%;
+                                max-height: 450px;
+                                object-fit: contain;
+                                object-position: center bottom;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                                margin-right: 20px;
+                            }
+                            
+                            .text p {
+                                color: #535353;
+                                margin: 15px;
+                                max-width: 500px;
+                                letter-spacing: 0.3px;
+                                line-height: 1.8rem;
+                            }
+                            
+                            .content {
+                                padding-left: 100px;
+                                padding-right: 100px;
+                                padding-top: 30px;
+                            }
+                            
+                            .lunges {
+                                display: flex;
+                                justify-content: space-between;
+                                align-content: end;
+                            }
+                            
+                            #steps {
+                                padding-left: 50px;
+                                padding-top: 50px;
+                                font-size: 18px;
+                                font-weight: bold;
+                            }
+                            
+                            #lv {
+                                width: 700px;
+                            }
+                            
+                            .footer {
+                                background: #062d75;
+                                text-align: center;
+                                height: 90px;
+                                padding-top: 35px;
+                            }
+                            
+                            .footer p {
+                                color: #f5f7fb;
+                            }

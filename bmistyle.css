@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#hero {
+    background-color: #99a6c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 60px;
+    position: fixed;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.logo {
+    color: #122851;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.logo span {
+    background-color: #014dd5;
+    color: #ffffff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.menu li a {
+    margin: 0px 20px;
+    color: #303030;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.menu li a:hover {
+    color: #014dd5;
+}
+
+.nav-appointment-btn {
+    height: 45px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    background-color: #014dd5;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eff2fd;
+}
+
+span {
+    color: white;
+}
+
+.wrapper {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: rgb(163, 155, 225);
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 280px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(191, 26, 26);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.content {
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    height: 570px;
+}
+
+.footer {
+    background: #062d75;
+    text-align: center;
+    height: 90px;
+    padding-top: 35px;
+}
+
+.footer p {
+    color: #f5f7fb;
+}
